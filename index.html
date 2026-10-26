@@ -1,20 +1,53 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Options Hairdressing — Rothwell, Leeds</title><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&display=swap" rel="stylesheet">
-<style>body{margin:0;font-family:'Playfair Display',system-ui,sans-serif;background:#faf5ff;color:#222}
-nav{display:flex;justify-content:space-between;padding:16px 22px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.06)} nav a{color:#7c3aed;text-decoration:none;font-weight:700;margin-left:14px}
-.hero{padding:40px 22px} .hero img{width:100%;max-height:420px;object-fit:cover;border-radius:20px}
-.hero.split{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:center} .hero.split img{height:380px}
-.hero.dark{background:#111;color:#fff} .hero.dark img{opacity:.85} .hero.full{position:relative;padding:0} .hero.full img{max-height:70vh} .hero.full div{position:absolute;bottom:30px;left:24px;color:#fff;text-shadow:0 2px 12px #000}
-.hero.center{text-align:center} .hero.center img{max-width:720px;margin:20px auto;display:block}
-h1{font-size:clamp(2rem,5vw,3.4rem);line-height:1.05} .btn{display:inline-block;background:#7c3aed;color:#fff;padding:13px 26px;border-radius:20px;text-decoration:none;font-weight:800}
-section{max-width:1080px;margin:auto;padding:36px 22px} .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
-.svc{background:#fff;padding:20px;border-radius:20px;box-shadow:0 6px 18px rgba(0,0,0,.07);transition:.3s} .svc:hover{transform:translateY(-6px)} .svc a{color:#7c3aed;font-weight:700;text-decoration:none}
-.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px} .gallery img{width:100%;height:200px;object-fit:cover;border-radius:20px}
-.note{background:#fef3c7;padding:12px;border-radius:10px;text-align:center;margin-top:24px}
-@media(max-width:700px){.hero.split{grid-template-columns:1fr}}
-</style></head><body><nav><strong>Options Hairdressing</strong><span><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#book">Book</a></span></nav>
-<header class="hero split"><div><h1>Options Hairdressing</h1><p>Rothwell, Leeds</p><a class="btn" href="#book">Book now</a></div><img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?w=1200&q=80" alt="Options Hairdressing"></header>
-<section id="services"><h2>Services at Options Hairdressing</h2><div class="grid"><div class="svc"><h3>Balayage</h3><p>Expert care, tailored to you.</p><a href="#book">Book this →</a></div><div class="svc"><h3>Colour & Cut</h3><p>Expert care, tailored to you.</p><a href="#book">Book this →</a></div><div class="svc"><h3>Highlights</h3><p>Expert care, tailored to you.</p><a href="#book">Book this →</a></div><div class="svc"><h3>Extensions</h3><p>Expert care, tailored to you.</p><a href="#book">Book this →</a></div></div></section>
-<section id="gallery"><h2>Gallery</h2><div class="gallery"><img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?w=1200&q=80" alt="Options Hairdressing" loading="lazy"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200&q=80" alt="Options Hairdressing" loading="lazy"><img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=1200&q=80" alt="Options Hairdressing" loading="lazy"><img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=1200&q=80" alt="Options Hairdressing" loading="lazy"></div></section>
-<section id="book"><div style="background:#7c3aed;color:#fff;padding:36px;border-radius:20px;text-align:center"><h2>Visit Options Hairdressing in Rothwell, Leeds</h2><p>Designed uniquely for this salon.</p><a class="btn" style="background:#fff;color:#7c3aed" href="#">Book now →</a></div><div class="note">Demo concept only — not the salon's official website. Photos are illustrative stock photos.</div></section>
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Options Hairdressing — Rothwell, Leeds | Redesign Demo</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;900&display=swap" rel="stylesheet">
+<style>
+body{margin:0;font-family:'Fraunces',serif;background:#f2f7f1;color:#222}
+.banner{background:#111;color:#fff;text-align:center;padding:12px 16px;font-weight:700;font-size:15px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.06)}
+nav b{font-family:'Fraunces',serif;font-size:22px;color:#14532d}
+nav a{color:#14532d;text-decoration:none;font-weight:700;margin-left:14px}
+.hero{padding:38px 22px;max-width:1080px;margin:0 auto}
+.hero.split img{width:100%;border-radius:20px;object-fit:cover;max-height:420px}
+.hero h1{font-family:'Fraunces',serif;font-size:clamp(2rem,5vw,3.4rem);line-height:1.05;color:#14532d}
+.hero p.lead{font-size:19px;line-height:1.6}
+.btn{display:inline-block;background:#14532d;color:#fff;padding:14px 26px;border-radius:30px;text-decoration:none;font-weight:700;margin:8px 8px 8px 0}
+.btn.ghost{background:#fff;color:#14532d;border:2px solid #14532d}
+section{max-width:1080px;margin:0 auto;padding:26px 22px}
+h2{font-family:'Fraunces',serif;color:#14532d;font-size:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+.card{background:#fff;border-radius:16px;padding:20px;box-shadow:0 4px 18px rgba(0,0,0,.07);transition:transform .25s}
+.card:hover{transform:translateY(-5px)}
+.prices{background:#fff;border-radius:16px;padding:8px 22px}
+.price{display:flex;justify-content:space-between;padding:14px 0;border-bottom:1px solid #eee}
+.gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px}
+.gallery img{width:100%;height:190px;object-fit:cover;border-radius:14px}
+.note{background:#fff8e1;border:1px solid #f0d98c;border-radius:12px;padding:16px}
+footer{background:#111;color:#ddd;text-align:center;padding:26px 18px;line-height:1.7}
+footer a{color:#fff}
+@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.hero,section{animation:fade .7s ease both}
+</style></head><body>
+<div class="banner">Demo concept only — a redesign preview of Options Hairdressing’s website, not their full official site</div>
+<nav><b>Options</b><span><a href="#services">Services</a><a href="#visit">Visit</a></span></nav>
+<div class="hero split">
+<h1>Quality hairdressing at affordable prices.</h1>
+<p class="lead">Options Hairdressing in Rothwell, near Leeds, is rated 4.8 stars from over 160 Google reviews, with free parking and expert cuts, colour and styling.</p>
+<img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=1200&q=80" alt="Salon interior — illustrative stock photo">
+<p><a class="btn" href="https://options-hairdressing.com/">Visit the salon&rsquo;s real website &rarr;</a>
+<a class="btn ghost" href="tel:+441132821453">Call 0113 282 1453</a></p>
+<p class="note">This demo does not take bookings. It previews a redesign &mdash; booking stays with the salon&rsquo;s real website and phone, exactly as today.</p>
+</div>
+<section id="services"><h2>What we do</h2><div class="grid"><div class="card"><h3>Expert cuts, colour &amp; styling</h3><p>The salon&#x27;s own description: expert cuts, colour and styling in Rothwell, near Leeds.</p></div><div class="card"><h3>Affordable prices</h3><p>Quality hairdressing at affordable prices — the salon&#x27;s own promise, kept front and centre.</p></div><div class="card"><h3>Free parking</h3><p>Easy to visit, with free parking for clients.</p></div><div class="card"><h3>Book online via Shortcuts</h3><p>Booking continues through the salon&#x27;s existing Shortcuts link, explained here instead of left unexplained.</p></div></div></section>
+
+<section><h2>What this redesign fixes</h2><ul><li>The real homepage is almost text-only: this demo adds photos and a clear first screen.</li><li>Services are now visible at a glance instead of hidden.</li><li>Hours and address sit in one clear visit section, and the Shortcuts booking route is explained.</li></ul></section>
+<section><h2>Gallery</h2><div class="gallery">
+<img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=1200&q=80" alt="Hair styling — illustrative stock photo">
+<img src="https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=1200&q=80" alt="Salon treatment — illustrative stock photo">
+<img src="https://images.unsplash.com/photo-1522337660859-02fbefca4702?w=1200&q=80" alt="Salon detail — illustrative stock photo">
+</div><p>Photos are illustrative stock photos, not photos of this salon.</p></section>
+<section id="visit"><h2>Visit us</h2><p>57 Commercial Street, Rothwell, Leeds LS26 0QD</p><p>Phone: 0113 282 1453</p><p>Hours: Mon 9:00–17:30, Tue 9:30–19:30, Wed &amp; Fri 9:00–18:00, Thu 10:00–19:30, Sat 9:00–17:00</p><p>No service price list is shown here, because the salon&#x27;s homepage does not publish one — prices to be confirmed with the salon.</p></section>
+<footer><div class="banner">Demo concept only — a redesign preview of Options Hairdressing’s website, not their full official site</div><br>Demo concept only. Photos are illustrative stock photos.
+<br>Real website: <a href="https://options-hairdressing.com/">https://options-hairdressing.com/</a></footer>
 </body></html>
